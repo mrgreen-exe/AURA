@@ -1,0 +1,135 @@
+@font-face {
+  font-family: 'Muller';
+  src: url(fonts/MullerBold.woff) format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: 'swap';
+}
+@font-face {
+  font-family: 'Muller';
+  src: url(fonts/MullerRegular.woff) format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: 'swap';
+}
+@font-face {
+  font-family: 'Russo One';
+  src: url(fonts/RussoOneRegular.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: 'swap';
+}
+html{
+  box-sizing: border-box;
+
+}
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+body{
+  font-family: 'Muller';
+  font-weight: 400;
+  margin: 0;
+  color: #07060B;
+  width: 100%;
+  background-color: hsl(89.8, 89.8, 90%);
+}
+a{
+  color: #07060B;
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+
+.main {
+  width: 1920px;
+
+}
+.header {
+  width: 1280px;
+  height: 80px;
+  background-color: #fff;
+  display: flex;
+  margin: 0 auto;
+}
+.header__menu {
+  display: flex;
+  width: 750px;
+
+}
+.header__menu-item {
+  margin-right: 32px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.header__menu-item-button {
+  margin-left: auto;
+  padding: 17px 43px;
+  border-radius: 77px;
+  background-color: #000;
+}
+
+.header__menu-item-button a {
+  color: #fff;
+}
+
+.logo-aura {
+  width: 100px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.primary__active{
+  border: 2px solid var(--primary_active, #57D272);
+  padding: 2px;
+}
+
+
+.second__header {
+  width: 1920px;
+  height: 680px;
+  display: flex;
+  justify-content: center;
+  background-color: #07060B;
+}
+.second__header-container {
+  width: 610px;
+  height: 360px;
+}
+.second-header-title {
+  color: #FFF;
+  font-family: 'Russo One';
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+
+}
+.commercial-list {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+
+
+}
+.commercial__list-item {
+  border-radius: 40px;
+  padding: 25px 54px;
+  background: var(--button_cta, linear-gradient(180deg, #46F4DB 27.08%, #57D272 100%));
+}
+.commercial__list-item-autor{
+  border-radius: 40px;
+  border: 5px solid var(--button_cta, #46F4DB);
+  padding: 25px 54px;
+
+}
+.commercial_list-item-button {
+  color: #FFF;
+}
+.second__header-background{
+  width: 1025px;
+  height: 680px;
+  background-color: #57D272;
+}
